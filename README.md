@@ -74,6 +74,9 @@ submodules must be fetched for the first time using the following
 command:
 
 	$ git submodule update --init
+	
+As this project uses submodules, downloading via Github's "download zip"
+button does not work.
 
 *Note:*  As this project uses submodules, the source archive downloadable
 via GitHub's `Download ZIP` button will not build unless the correct
